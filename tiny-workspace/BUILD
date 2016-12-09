@@ -7,5 +7,8 @@ cc_library(
 cc_binary(
     name = "main",
     srcs = ["main.cc"],
-    deps = [":x"],
+    deps = [
+        ":x"
+        ":hello"
+    ],   
 )
